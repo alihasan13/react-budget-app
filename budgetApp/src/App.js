@@ -2,6 +2,9 @@ import React from 'react';
 import "./App.css";
 import Header from './Components/Header';
 import Balance from './Components/Balance';
+import Transaction from "./Components/Transaction"
+import IncomeList from "./Components/IncomeList"
+import ExpenseList from "./Components/ExpenseList"
 
  const App = () => {
   return (
@@ -10,6 +13,9 @@ import Balance from './Components/Balance';
       <div class="app-wrapper">
       <Header/>
       <Balance/>
+      <Transaction/>
+      <IncomeList/>
+      <ExpenseList/>
       </div>
       
     </div>
