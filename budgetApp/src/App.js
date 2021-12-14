@@ -5,6 +5,7 @@ import Balance from './Components/Balance';
 import Transaction from "./Components/Transaction"
 import IncomeList from "./Components/IncomeList"
 import ExpenseList from "./Components/ExpenseList"
+import Counter from "./Components/Counter"
 
  const App = () => {
   return (
@@ -16,6 +17,7 @@ import ExpenseList from "./Components/ExpenseList"
       <Transaction/>
       <IncomeList/>
       <ExpenseList/>
+      <Counter/>
       </div>
       
     </div>
